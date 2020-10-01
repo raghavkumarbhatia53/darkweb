@@ -7,9 +7,9 @@ At the moment this repository contains a Django application which powers the
 quotes system for DarkScience. This is a legacy part of the old website still
 in service.
 
-## Development Environment
+## Development of Environment
 
-You can configure a development environment with the following:
+You can configure a development of environment with the following:
 
 **NOTE**: *These steps assume you have Python along with pipenv installed.*
 
@@ -20,7 +20,7 @@ $ export DATABASE_URL="sqlite:///$(pwd)/db.sqlite"
 $ pipenv run python manage.py migrate
 ```
 
-### Running the tests
+### Running the tests(Important)
 
 ```bash
 $ pipenv run python manage.py test
